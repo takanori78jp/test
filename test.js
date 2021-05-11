@@ -50,5 +50,6 @@ var generatePolicy = function(principalId, effect, resource) {
     var a = new RegExp('^[/.a-zA-Z0-9-\*]+$')
     var b = new RegExp('^[/.a-zA-Z0-9-\*]+$')
     var c = 1
+    var d = 2
     return authResponse;
 }
